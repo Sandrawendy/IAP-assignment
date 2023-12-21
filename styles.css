@@ -1,0 +1,61 @@
+/* Basic styles for the header and navigation */
+header {
+    background-color:#00ff62;
+    padding: 15px;
+    font:500;
+  }
+  
+    a:link {
+        color: red;
+        text-decoration: underline;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: black;
+        text-decoration: none;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: hotpink;
+        text-decoration: none;
+      }
+      
+      /* selected link */
+      a:active {
+        color: blue;
+        text-decoration:underline;
+      }
+  
+  nav ul {
+    list-style-type: none;
+    background-color:blueviolet;
+   padding: 10px ;
+   margin:auto;
+
+
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+
+  
+  /* Styles for the sections and form */
+  section {
+    margin: 20px;
+  }
+  
+  .profile img {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .form-section {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  

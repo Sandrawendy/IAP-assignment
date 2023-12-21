@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="profile" id="profile">
+    <!-- Add the photograph and address here -->
+    <img  style="float:right;"src= https://statusneo.com/wp-content/uploads/2023/02/MicrosoftTeams-image551ad57e01403f080a9df51975ac40b6efba82553c323a742b42b1c71c1e45f1.jpg" alt="Person's Photograph">  
+   
+    <p>LAST KNOWN ADDRESS : <span id="addressSpan"></span></p>
+  <script>
+    // Retrieve the address from localStorage and display it
+    const lastKnownAddress = localStorage.getItem('lastKnownAddress');
+    if (lastKnownAddress) {
+      document.getElementById('addressSpan').textContent = lastKnownAddress;
+    }
+  </script>
+  <div>
+  </section>
+
+<section>
+    <h1 style="color: red;font-family: 'Courier New', Courier, monospace; font-size:x-large; text-decoration:underline; font-weight: 900;">BRIEF BIOGRAPHY</h1>
+    <section>
+ <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(4, 66, 45);text-decoration: underline;">Education</h4>
+    <P>i am currently a student at JKAUT doing a Bachelor's degree in Computer science in Second Year</P>
+    <p>i went to highchool at Maryhill Girls High school where i scored an A- of 79 points in my KCSE</p>
+    <p>i was at Thika Bell House Academy for my primary studies. i had 407 marks in my KCPE examination</p>
+</section>
+<h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;color:brown; text-decoration: underline;">Employment Status</h4>
+<p> While focusing on my studies, i am engaged in a part-time internship as a junior computer technitian at a local tech startup. </p>
+<p>i increase my working hours during the long holidays</p>
+</section>
+<section>
+<h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;color:fuchsia; text-decoration: underline;">Relevant information</h4>
+    <p>i am a baker as well and i've loved also persuing this path</p>
+    <p>it gives me the extra funds i may require while in school</p>
+</section>
+
+    <h3 style="text-decoration: underline;">Awards and Distinctions</h3>
+    <!-- List of awards earned -->
+    <ul type="button">
+        <li>certified cyber security specialist</li>
+        <li>cyber security graduate at cisco</li>
+        <p>Badges in:</p>
+        <li>Network defense</li>
+        <li>Endpoint security</li>
+        <li>Cyber threat management</li>
+        
+    </ul>
+
+    <h3 style="text-decoration: underline;">Contributions</h3>
+    <!-- List of contributions -->
+    <ol>
+        <li>fundraising for causes</li>
+        <li>community service</li>
+        <li>tech innovation</li>
+    </ol>
+
+    <h3 style="text-decoration: underline;">References</h3>
+    <!-- List of relevant references if possible including the links -->
+    <a href="https://www.credly.com/earner/earned">BADGES CREDITED</a>
+  </section>
+</div>
+</body>
+</html>
